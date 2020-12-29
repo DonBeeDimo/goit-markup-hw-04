@@ -131,6 +131,7 @@ p {
 .site-nav .item + .item {
   margin-left: 50px;
 }
+
 .site-nav a {
   display: block;
   padding-top: 32px;
@@ -152,13 +153,36 @@ p {
   color: var(--accent-color);
 }
 
+.coordinates {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.web-link > .coordinates:nth-child(2n) {
+  margin-right: 0;
+}
+
+.icon-envelope {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+}
+
+.icon-smartphone {
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.icon-envelope:hover,
+.icon-envelope:focus {
+  color: var(--accent-color);
+}
+
 .web-link {
   display: flex;
   margin-left: auto;
-}
-
-.web-link .item + .item {
-  margin-left: 50px;
 }
 
 .web-link a {

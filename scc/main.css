@@ -91,29 +91,16 @@
   margin-right: 0;
 }
 
-.paragraph .item::before {
-  content: '';
-  display: block;
+.master {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.master-icon {
+  width: 70px;
   height: 70px;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
-.paragraph .item:nth-child(1)::before {
-  background-image: url(../images/1antenna1.svg);
-}
-
-.paragraph .item:nth-child(2)::before {
-  background-image: url(../images/2clock1.svg);
-}
-
-.paragraph .item:nth-child(3)::before {
-  background-image: url(../images/3diagram1.svg);
-}
-
-.paragraph .item:nth-child(4)::before {
-  background-image: url(../images/4astronaut1.svg);
+  
 }
 
 .actions {
