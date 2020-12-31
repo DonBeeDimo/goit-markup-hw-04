@@ -90,28 +90,6 @@ p {
   display: flex;
 }
 
-.accent-web {
-  color: var(--accent-color);
-  font-family: Raleway, sans-serif;
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.accent-studio {
-  color: #000000;
-  font-family: Raleway, sans-serif;
-
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-}
-
-.accent-studio:hover {
-  color: var(--accent-color);
-}
-
 /* site nav */
 
 .nav-points {
@@ -297,4 +275,46 @@ p {
 .footer-link .footer-tel:hover,
 .footer-link .footer-tel:focus {
   color: var(--accent-color);
+}
+
+.networks-title {
+  color: var(--background-color);
+
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.container-footer {
+  display: flex;
+}
+.social-networks {
+  margin-left: 70px;
+}
+
+.networks-title {
+  padding-bottom: 20px;
+}
+
+.social-link {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--background-color);
+}
+
+.social-icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--background-color);
 }
