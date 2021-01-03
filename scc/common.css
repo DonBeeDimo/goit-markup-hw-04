@@ -80,13 +80,13 @@ p {
 
 /* Logo */
 
-.logo {
+.head-logo {
   display: block;
   padding-top: 32px;
   padding-bottom: 32px;
 }
 
-.logo {
+.head-logo {
   display: flex;
 }
 
@@ -145,6 +145,8 @@ p {
   width: 16px;
   height: 12px;
   margin-right: 10px;
+
+  fill: currentColor;
 }
 
 .icon-smartphone {
@@ -153,10 +155,6 @@ p {
   margin-right: 10px;
 }
 
-.icon-envelope:hover,
-.icon-envelope:focus {
-  color: var(--accent-color);
-}
 
 .web-link {
   display: flex;
