@@ -131,16 +131,17 @@ p {
   color: var(--accent-color);
 }
 
-.coordinates {
+.web-link {
   display: flex;
-  align-items: center;
-  margin-right: 50px;
-
-  color: var(--title-text-color);
+  margin-left: auto;
+  padding: 0;
 }
 
-.web-link > .coordinates:nth-child(2n) {
-  margin-right: 0;
+.link-mail {
+  display: flex;
+  align-items: center;
+
+  margin-right: 50px;
 }
 
 .icon-envelope {
@@ -151,22 +152,16 @@ p {
   fill: currentColor;
 }
 
+.link-tel {
+  display: flex;
+  align-items: center;
+}
+
 .icon-smartphone {
   width: 10px;
   height: 16px;
   margin-right: 10px;
-}
-
-
-.web-link {
-  display: flex;
-  margin-left: auto;
-}
-
-.web-link a {
-  display: block;
-  padding-top: 32px;
-  padding-bottom: 32px;
+  fill: currentColor;
 }
 
 .web-link .link-mail {
@@ -178,7 +173,8 @@ p {
 }
 
 .web-link .link-mail:hover,
-.web-link :focus {
+.web-link .link-mail:focus {
+  outline: none;
   color: var(--accent-color);
 }
 
@@ -192,6 +188,7 @@ p {
 
 .web-link .link-tel:hover,
 .web-link .link-tel:focus {
+  outline: none;
   color: var(--accent-color);
 }
 

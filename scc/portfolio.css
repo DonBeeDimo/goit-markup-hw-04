@@ -28,17 +28,16 @@ li {
 .filter-nav .nav {
   display: inline-block;
   border-radius: 4px;
+  border: 0px;
   padding: 6px 22px;
   min-width: 73px;
-  
 
-  background-color: var(--background-color);
+  background-color: #f5f4fa;
   color: var(--primary-text-color);
 
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-
 }
 
 .filter-nav .nav:hover,
@@ -70,16 +69,17 @@ li {
   margin-bottom: 0;
 }
 
-.cart-list > .item:hover,
-.cart-list > .item:focus {
+.item .link-cart:hover,
+.item .link-cart:focus {
+  outline: none;
   display: block;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-  1px 4px 6px rgba(0, 0, 0, 0.16);
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .cart-list > .item {
   display: block;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .section-title {
@@ -104,6 +104,7 @@ li {
 
 .card-image {
   display: block;
+  width: 100%;
 }
 
 .heading-title {
